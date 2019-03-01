@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="FaceBookSignUp" time="134" tests="4" failures="0" errors="0">
+   <testsuite name="FaceBookSignUp" tests="4" failures="0" errors="0" time="134" timestamp="2019-03-02 03:26:48" hostname="20180104.03 - NBMP17Q7NYIT.corp.bankbtpn.co.id" id="Test Suites/FaceBookSignUp">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\20180104.03\\git\\FacebookTest\\Reports\\FaceBookSignUp\\20190302_032643"/>
+         <property name="logFiles" value="C:\\Users\\20180104.03\\git\\FacebookTest\\Reports\\FaceBookSignUp\\20190302_032643\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="20180104.03 - NBMP17Q7NYIT.corp.bankbtpn.co.id"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.8.4.14"/>
+         <property name="browser" value="Chrome 72.0.3626.109"/>
+         <property name="hostAddress" value="192.168.1.11"/>
+         <property name="sessionId" value="7785ee1ccf5edd7ff3594535cecd2a92"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Facebook Signup/Failed if All Field Value Blank" classname="Test Cases/Facebook Signup/Failed if All Field Value Blank" status="PASSED">
+         <system-out><![CDATA[2019-03-02 03:26:49 - [TEST_CASE][PASSED] - Test Cases/Facebook Signup/Failed if All Field Value Blank: Test Cases/Facebook Signup/Failed if All Field Value Blank
+
+2019-03-02 03:26:49 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2019-03-02 03:26:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-03-02 03:26:58 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://id-id.facebook.com/' successfully
+
+2019-03-02 03:27:17 - [MESSAGE][PASSED] - Navigate to 'https://id-id.facebook.com/' successfully
+
+2019-03-02 03:27:17 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Facebook/Nama Depan' is present
+
+2019-03-02 03:27:17 - [MESSAGE][PASSED] - Object 'Object Repository/Facebook/Nama Depan' is present
+
+2019-03-02 03:27:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Facebook/Button' is clicked on
+
+2019-03-02 03:27:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Facebook/Button' is clicked on
+
+2019-03-02 03:27:17 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Facebook/X Nama Depan' is present
+
+2019-03-02 03:27:18 - [MESSAGE][PASSED] - Object 'Object Repository/Facebook/X Nama Depan' is present
+
+2019-03-02 03:27:18 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Facebook/X Nama Belakang' is present
+
+2019-03-02 03:27:18 - [MESSAGE][PASSED] - Object 'Object Repository/Facebook/X Nama Belakang' is present
+
+2019-03-02 03:27:18 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Facebook/X Selular or email' is present
+
+2019-03-02 03:27:18 - [MESSAGE][PASSED] - Object 'Object Repository/Facebook/X Selular or email' is present
+
+2019-03-02 03:27:18 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Facebook/X Kata Sandi' is present
+
+2019-03-02 03:27:18 - [MESSAGE][PASSED] - Object 'Object Repository/Facebook/X Kata Sandi' is present
+
+2019-03-02 03:27:18 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Facebook/X Gender' is present
+
+2019-03-02 03:27:18 - [MESSAGE][PASSED] - Object 'Object Repository/Facebook/X Gender' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Facebook Signup/Failed if Re-Enter Email not Match" classname="Test Cases/Facebook Signup/Failed if Re-Enter Email not Match" status="PASSED">
+         <system-out><![CDATA[2019-03-02 03:27:18 - [TEST_CASE][PASSED] - Test Cases/Facebook Signup/Failed if Re-Enter Email not Match: Test Cases/Facebook Signup/Failed if Re-Enter Email not Match
+
+2019-03-02 03:27:19 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2019-03-02 03:27:19 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-03-02 03:27:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-03-02 03:27:34 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://id-id.facebook.com/' successfully
+
+2019-03-02 03:27:49 - [MESSAGE][PASSED] - Navigate to 'https://id-id.facebook.com/' successfully
+
+2019-03-02 03:27:49 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Facebook/Nama Depan' is present
+
+2019-03-02 03:27:49 - [MESSAGE][PASSED] - Object 'Object Repository/Facebook/Nama Depan' is present
+
+2019-03-02 03:27:49 - [TEST_STEP][PASSED] - setText: Text 'ibnu' is set on object 'Object Repository/Facebook/Nama Depan'
+
+2019-03-02 03:27:50 - [MESSAGE][PASSED] - Text 'ibnu' is set on object 'Object Repository/Facebook/Nama Depan'
+
+2019-03-02 03:27:50 - [TEST_STEP][PASSED] - setText: Text 'hasan' is set on object 'Object Repository/Facebook/Nama Belakang'
+
+2019-03-02 03:27:50 - [MESSAGE][PASSED] - Text 'hasan' is set on object 'Object Repository/Facebook/Nama Belakang'
+
+2019-03-02 03:27:50 - [TEST_STEP][PASSED] - setText: Text 'hasanibnu@ymail.com' is set on object 'Object Repository/Facebook/Selular or email'
+
+2019-03-02 03:27:50 - [MESSAGE][PASSED] - Text 'hasanibnu@ymail.com' is set on object 'Object Repository/Facebook/Selular or email'
+
+2019-03-02 03:27:50 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Facebook/Email ulang' is present
+
+2019-03-02 03:27:50 - [MESSAGE][PASSED] - Object 'Object Repository/Facebook/Email ulang' is present
+
+2019-03-02 03:27:50 - [TEST_STEP][PASSED] - setText: Text 'ibnuhsan@gmail.com' is set on object 'Object Repository/Facebook/Email ulang'
+
+2019-03-02 03:27:50 - [MESSAGE][PASSED] - Text 'ibnuhsan@gmail.com' is set on object 'Object Repository/Facebook/Email ulang'
+
+2019-03-02 03:27:50 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Facebook/X Email ulang' is present
+
+2019-03-02 03:27:51 - [MESSAGE][PASSED] - Object 'Object Repository/Facebook/X Email ulang' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Facebook Signup/Success Sign Up Facebook With Email" classname="Test Cases/Facebook Signup/Success Sign Up Facebook With Email" status="PASSED">
+         <system-out><![CDATA[2019-03-02 03:27:51 - [TEST_CASE][PASSED] - Test Cases/Facebook Signup/Success Sign Up Facebook With Email: Test Cases/Facebook Signup/Success Sign Up Facebook With Email
+
+2019-03-02 03:27:51 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2019-03-02 03:27:51 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-03-02 03:28:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-03-02 03:28:06 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://id-id.facebook.com/' successfully
+
+2019-03-02 03:28:19 - [MESSAGE][PASSED] - Navigate to 'https://id-id.facebook.com/' successfully
+
+2019-03-02 03:28:19 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Facebook/Nama Depan' is present
+
+2019-03-02 03:28:19 - [MESSAGE][PASSED] - Object 'Object Repository/Facebook/Nama Depan' is present
+
+2019-03-02 03:28:19 - [TEST_STEP][PASSED] - setText: Text 'emma' is set on object 'Object Repository/Facebook/Nama Depan'
+
+2019-03-02 03:28:19 - [MESSAGE][PASSED] - Text 'emma' is set on object 'Object Repository/Facebook/Nama Depan'
+
+2019-03-02 03:28:19 - [TEST_STEP][PASSED] - setText: Text 'ana' is set on object 'Object Repository/Facebook/Nama Belakang'
+
+2019-03-02 03:28:20 - [MESSAGE][PASSED] - Text 'ana' is set on object 'Object Repository/Facebook/Nama Belakang'
+
+2019-03-02 03:28:20 - [TEST_STEP][PASSED] - setText: Text 'emmaana@gmail.com' is set on object 'Object Repository/Facebook/Selular or email'
+
+2019-03-02 03:28:20 - [MESSAGE][PASSED] - Text 'emmaana@gmail.com' is set on object 'Object Repository/Facebook/Selular or email'
+
+2019-03-02 03:28:20 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Facebook/Email ulang' is present
+
+2019-03-02 03:28:20 - [MESSAGE][PASSED] - Object 'Object Repository/Facebook/Email ulang' is present
+
+2019-03-02 03:28:20 - [TEST_STEP][PASSED] - setText: Text 'emmaana@gmail.com' is set on object 'Object Repository/Facebook/Email ulang'
+
+2019-03-02 03:28:20 - [MESSAGE][PASSED] - Text 'emmaana@gmail.com' is set on object 'Object Repository/Facebook/Email ulang'
+
+2019-03-02 03:28:20 - [TEST_STEP][PASSED] - setText: Text 'amantentram' is set on object 'Object Repository/Facebook/Kata Sandi'
+
+2019-03-02 03:28:20 - [MESSAGE][PASSED] - Text 'amantentram' is set on object 'Object Repository/Facebook/Kata Sandi'
+
+2019-03-02 03:28:20 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [21] are selected on object 'Object Repository/Facebook/Tanggal'
+
+2019-03-02 03:28:21 - [MESSAGE][PASSED] - All options with index in [21] are selected on object 'Object Repository/Facebook/Tanggal'
+
+2019-03-02 03:28:21 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [5] are selected on object 'Object Repository/Facebook/Bulan'
+
+2019-03-02 03:28:21 - [MESSAGE][PASSED] - All options with index in [5] are selected on object 'Object Repository/Facebook/Bulan'
+
+2019-03-02 03:28:21 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '1993' are selected in object 'Object Repository/Facebook/Tahun'  using regular expression
+
+2019-03-02 03:28:22 - [MESSAGE][PASSED] - All options with value '1993' are selected in object 'Object Repository/Facebook/Tahun'  using regular expression
+
+2019-03-02 03:28:22 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Facebook/Gender' is present
+
+2019-03-02 03:28:22 - [MESSAGE][PASSED] - Object 'Object Repository/Facebook/Gender' is present
+
+2019-03-02 03:28:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Facebook/Gender' is clicked on
+
+2019-03-02 03:28:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Facebook/Gender' is clicked on
+
+2019-03-02 03:28:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Facebook/Button' is clicked on
+
+2019-03-02 03:28:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Facebook/Button' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Facebook Signup/Success Sign Up Facebook With Phone Number" classname="Test Cases/Facebook Signup/Success Sign Up Facebook With Phone Number" status="PASSED">
+         <system-out><![CDATA[2019-03-02 03:28:22 - [TEST_CASE][PASSED] - Test Cases/Facebook Signup/Success Sign Up Facebook With Phone Number: Test Cases/Facebook Signup/Success Sign Up Facebook With Phone Number
+
+2019-03-02 03:28:23 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2019-03-02 03:28:23 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-03-02 03:28:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-03-02 03:28:37 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://id-id.facebook.com/' successfully
+
+2019-03-02 03:28:49 - [MESSAGE][PASSED] - Navigate to 'https://id-id.facebook.com/' successfully
+
+2019-03-02 03:28:49 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Facebook/Nama Depan' is present
+
+2019-03-02 03:28:49 - [MESSAGE][PASSED] - Object 'Object Repository/Facebook/Nama Depan' is present
+
+2019-03-02 03:28:49 - [TEST_STEP][PASSED] - setText: Text 'Haru' is set on object 'Object Repository/Facebook/Nama Depan'
+
+2019-03-02 03:28:49 - [MESSAGE][PASSED] - Text 'Haru' is set on object 'Object Repository/Facebook/Nama Depan'
+
+2019-03-02 03:28:49 - [TEST_STEP][PASSED] - setText: Text 'Emma' is set on object 'Object Repository/Facebook/Nama Belakang'
+
+2019-03-02 03:28:50 - [MESSAGE][PASSED] - Text 'Emma' is set on object 'Object Repository/Facebook/Nama Belakang'
+
+2019-03-02 03:28:50 - [TEST_STEP][PASSED] - setText: Text '08223311992' is set on object 'Object Repository/Facebook/Selular or email'
+
+2019-03-02 03:28:50 - [MESSAGE][PASSED] - Text '08223311992' is set on object 'Object Repository/Facebook/Selular or email'
+
+2019-03-02 03:28:50 - [TEST_STEP][PASSED] - setText: Text 'AmanKaka' is set on object 'Object Repository/Facebook/Kata Sandi'
+
+2019-03-02 03:28:50 - [MESSAGE][PASSED] - Text 'AmanKaka' is set on object 'Object Repository/Facebook/Kata Sandi'
+
+2019-03-02 03:28:50 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [21] are selected on object 'Object Repository/Facebook/Tanggal'
+
+2019-03-02 03:28:50 - [MESSAGE][PASSED] - All options with index in [21] are selected on object 'Object Repository/Facebook/Tanggal'
+
+2019-03-02 03:28:50 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [5] are selected on object 'Object Repository/Facebook/Bulan'
+
+2019-03-02 03:28:51 - [MESSAGE][PASSED] - All options with index in [5] are selected on object 'Object Repository/Facebook/Bulan'
+
+2019-03-02 03:28:51 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '1993' are selected in object 'Object Repository/Facebook/Tahun'  using regular expression
+
+2019-03-02 03:28:52 - [MESSAGE][PASSED] - All options with value '1993' are selected in object 'Object Repository/Facebook/Tahun'  using regular expression
+
+2019-03-02 03:28:52 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Facebook/Gender' is present
+
+2019-03-02 03:28:52 - [MESSAGE][PASSED] - Object 'Object Repository/Facebook/Gender' is present
+
+2019-03-02 03:28:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Facebook/Gender1' is clicked on
+
+2019-03-02 03:28:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Facebook/Gender1' is clicked on
+
+2019-03-02 03:28:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Facebook/Button' is clicked on
+
+2019-03-02 03:28:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Facebook/Button' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-03-02 03:26:48 - [TEST_SUITE][PASSED] - FaceBookSignUp: Test Cases/Facebook Signup/Success Sign Up Facebook With Phone Number]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
